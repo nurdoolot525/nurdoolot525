@@ -2,7 +2,8 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3F6ZXR5d295aDNodWd5am1nNDZpMTR6aTk1Y2Fyd3Rhc2d0bzZmZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KGhpQ5NMoWKQurlHwI/giphy.gif" width="600" alt="Coding GIF" />
 
   <h1>👋 Привет! Я Нурдоолот</h1>
-  <p><b>Full-Stack / Backend разработчик</b></p>
+  <p><b>
+    Backend разработчик</b></p>
 </div>
 
 ---
