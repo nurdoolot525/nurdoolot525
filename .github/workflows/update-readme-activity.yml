@@ -1,0 +1,26 @@
+name: Update README activity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update GitHub profile activity
+        uses: jamesgeorge007/github-activity-readme@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'docs: update activity section'
+          MAX_LINES: 10
+          COMMIT_NAME: 'GitHub Actions'
+          COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
